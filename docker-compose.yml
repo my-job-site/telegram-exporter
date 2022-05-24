@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    container_name: filter_on_city
+    container_name: telegram_exporter
     env_file: .env
     restart: always
     volumes:
