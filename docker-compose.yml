@@ -9,5 +9,5 @@ services:
     volumes:
       - ./src:/app
     ports:
-      - "5001:5000"
+      - "5005:5000"
     command: python main.py
